@@ -1,0 +1,38 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Pages.Shared.Components.AbpPageToolbar
+@using Volo.Abp.TenantManagement.Localization
+@using Volo.Abp.TenantManagement.Web.Navigation
+@using Volo.Abp.TenantManagement.Web.Pages.TenantManagement.Editions
+@model IndexModel
+@inject IHtmlLocalizer<AbpTenantManagementResource> L
+@inject IAuthorizationService Authorization
+@inject IPageLayout PageLayout
+@{
+    PageLayout.Content.Title = L["Editions"].Value;
+    PageLayout.Content.BreadCrumb.Add(L["Menu:Editions"].Value);
+    PageLayout.Content.MenuItemName = TenantManagementMenuNames.Editions;
+}
+@section scripts {
+    <abp-script-bundle name="@typeof(IndexModel).FullName">
+        <abp-script src="/Pages/FeatureManagement/feature-management-modal.js" />
+        <abp-script src="/Pages/TenantManagement/Editions/Index.js" />
+    </abp-script-bundle>
+}
+<abp-card id="EditionsWrapper">
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["Editions"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-right">
+                @await Component.InvokeAsync(typeof(AbpPageToolbarViewComponent), new { pageName = typeof(IndexModel).FullName })
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" class="nowrap"></abp-table>
+    </abp-card-body>
+</abp-card>
