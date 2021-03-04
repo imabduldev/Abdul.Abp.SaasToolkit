@@ -1,6 +1,8 @@
 # Abdul Saas Toolkit
 ABP Saas Toolkit. Create and manage editions and tenants and assign features to any edition. Assign edition or indivual feature to any tenant.
 
+[![NuGet](https://img.shields.io/nuget/v/Abdul.Abp.SaasToolkit.Application)](https://www.nuget.org/packages?q=Abdul.Abp.SaasToolkit)
+
 ### How To?
 
 1. Create multi tenant project from abp application template
