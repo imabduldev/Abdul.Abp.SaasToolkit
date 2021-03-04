@@ -14,14 +14,14 @@ ABP Saas Toolkit. Create and manage editions and tenants and assign features to 
    7. Volo.Abp.TenantManagement.HttpApi.Client
    8. Volo.Abp.TenantManagement.Web
 3. Install following packages respectively from nuget package manager according to the above packages
-   1. [Abdul.Abp.SaasToolkit.Application](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Application/)<img src="nuget-icon.png" alt="Nuget" style="zoom:5%;" />
-   2. [Abdul.Abp.SaasToolkit.Application.Contracts](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Application.Contracts/) <img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />
-   3. [Abdul.Abp.SaasToolkit.Domain<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Domain/)
-   4. [Abdul.Abp.SaasToolkit.Domain.Shared](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Domain.Shared/)<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />
-   5. [Abdul.Abp.SaasToolkit.EntityFrameworkCore<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.EntityFrameworkCore/)
-   6. [Abdul.Abp.SaasToolkit.HttpApi<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.HttpApi/)
-   7. [Abdul.Abp.SaasToolkit.HttpApi.Client<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.HttpApi.Client/)
-   8. [Abdul.Abp.SaasToolkit.Web<img src="nuget-icon.png" style="zoom:5%;" alt="Nuget" />](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Web/)
+   1. [Abdul.Abp.SaasToolkit.Application](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Application/)
+   2. [Abdul.Abp.SaasToolkit.Application.Contracts](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Application.Contracts/)
+   3. [Abdul.Abp.SaasToolkit.Domain](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Domain/)
+   4. [Abdul.Abp.SaasToolkit.Domain.Shared](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Domain.Shared/)
+   5. [Abdul.Abp.SaasToolkit.EntityFrameworkCore](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.EntityFrameworkCore/)
+   6. [Abdul.Abp.SaasToolkit.HttpApi](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.HttpApi/)
+   7. [Abdul.Abp.SaasToolkit.HttpApi.Client](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.HttpApi.Client/)
+   8. [Abdul.Abp.SaasToolkit.Web](https://www.nuget.org/packages/Abdul.Abp.SaasToolkit.Web/)
 4. Have fun! nothing to do more.
 
 ### Note
