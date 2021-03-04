@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\configureawait.props" />
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Volo.Abp.TenantManagement.Application.Contracts</AssemblyName>
+    <PackageId>Abdul.Abp.SaasToolkit.Application.Contracts</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Abdul</Authors>
+    <Version>1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/imabduldev/Abdul.Abp.SaasToolkit</RepositoryUrl>
+    <Description>ABP Saas Toolkit. Create and manage editions and tenants and assign features to any edition. Assign edition or indivual feature to any tenant.</Description>
+    <PackageTags>abp, abp.io aspnetboilerplate, boilerplate asp core boilerplate, multi tenant, saas, tenant managemenat</PackageTags>
+    <PackageIcon>nuget-icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abdul.Abp.SaasToolkit.Domain.Shared\Abdul.Abp.SaasToolkit.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Volo.Abp.Ddd.Application" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\nuget-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
